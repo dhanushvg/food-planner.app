@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Authors</title>
+</head>
+<body>
+         <header>FoodCook Planner🍽
+        <a href="./index.html"style="color: #fff; padding: 5px 10px; margin: 10px;">back</a>
+         </header>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+        table{
+            margin: 20px auto;
+            border-spacing: 0;
+        }
+
+        tr:first-child{
+            background-color: #1b63ff;
+            color: #fff;
+        }
+        th,td{
+            padding: 5px 15px;
+            font-size: 20px;
+            border:0.5px solid black
+        }
+
+        table a{
+            font-size: 10px;
+            color: darkblue;
+        }
+
+        header{
+          background-color: rgb(56, 56, 218);
+         color: #fff;
+         text-align: center;
+         padding: 16px 20px;
+         }
+
+         .blink{
+         background-color: lightblue;
+ }
+</style>
+
+
+   <main>
+
+    <table id="table">
+    <tr>
+        <th>name</th>
+        <th>linked.in</th>
+        <th>github</th>
+    </tr>
+
+    <tr>
+        <td>dhanush</td>
+        <td>github.in</td>
+        <td>linked.in</td>
+    </tr>
+
+    <tr>
+        <td>ram</td>
+        <td>github.in</td>
+        <td>linked.in</td>
+    </tr>
+
+    <tr>
+        <td>raj</td>
+        <td>github.in</td>
+        <td>linked.in</td>
+    </tr>
+    
+</table>
+
+  <div>
+    <button style="padding: 5px 10px;margin: 6px 5px;" data-dhanush-id="donate-form">donate as much as you can</button>
+    <form id="donate-form" hidden>
+          <span>₹</span><input type="number" min="1" placeholder="20" style="padding: 5px 10px; margin: 10px 5px;">
+            <button id="donatebtn" style="padding: 7px 10px; background-color: #1b63ff;border: none;border-radius: 3px; ">donate</button>
+    </form>
+  </div>
+
+     
+     <button id="alertmessanger" style="padding: 5px 8px;border: none;background-color: #1b63ff;border-radius: 3px;margin: 10px 5px;">Save</button>
+
+      
+
+</main>
+<script src="./learning.js"></script>
+</body>
+</html>
